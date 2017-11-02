@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.8
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleParser", "ScheduleParser\ScheduleParser.csproj", "{16D88F32-4636-41B8-8294-B7A564B2A7D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleParser", "ScheduleParser\ScheduleParser.csproj", "{16D88F32-4636-41B8-8294-B7A564B2A7D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleData", "ScheduleData\ScheduleData.csproj", "{3E4BE988-7D35-4A4A-AF07-947E7D227EF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleData", "ScheduleData\ScheduleData.csproj", "{3E4BE988-7D35-4A4A-AF07-947E7D227EF6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{48B7C78E-FEFD-4337-85C4-B06232F83AAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleParser.XUnitTest", "ScheduleParser.XUnitTest\ScheduleParser.XUnitTest.csproj", "{FBEA3620-DFE5-4C69-AF8B-EACD531BF8E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleParser.XUnitTest", "ScheduleParser.XUnitTest\ScheduleParser.XUnitTest.csproj", "{FBEA3620-DFE5-4C69-AF8B-EACD531BF8E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleDownloader", "ScheduleDownloader\ScheduleDownloader.csproj", "{4FBBB2AB-3001-4300-B2B3-B3AD6C459C7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{FBEA3620-DFE5-4C69-AF8B-EACD531BF8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBEA3620-DFE5-4C69-AF8B-EACD531BF8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBEA3620-DFE5-4C69-AF8B-EACD531BF8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FBBB2AB-3001-4300-B2B3-B3AD6C459C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBBB2AB-3001-4300-B2B3-B3AD6C459C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBBB2AB-3001-4300-B2B3-B3AD6C459C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBBB2AB-3001-4300-B2B3-B3AD6C459C7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
