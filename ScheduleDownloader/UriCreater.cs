@@ -7,13 +7,13 @@ namespace ScheduleDownloader
 {
     public sealed class UriCreater
     {
-        private readonly string baseAddress = "https://tw.movies.yahoo.com/";
+        private static readonly string baseAddress = "https://tw.movies.yahoo.com/";
 
-        private readonly string indexPage = "tv_index.html";
-        private readonly string channelPage = "tv_channels.html";
+        private static readonly string indexPage = "tv_index.html";
+        private static readonly string channelPage = "tv_channels.html";
 
 
-        public string GetIndexUrl(Nullable<int> id)
+        public static string GetIndexUrl(Nullable<int> id)
         {
             var _mainUrl = Path.Combine(baseAddress, indexPage);
 
@@ -23,7 +23,7 @@ namespace ScheduleDownloader
             return String.Format("{0}?category_id={1}", _mainUrl, id);
         }
 
-        public string GetChannelUrl(Nullable<DateTime> date, Nullable<int> channelId)
+        public static string GetChannelUrl(Nullable<DateTime> date, Nullable<int> channelId)
         {
             var _mainUrl = Path.Combine(baseAddress, channelPage);
 
