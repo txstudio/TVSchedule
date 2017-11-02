@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integation Testing", "Integ
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Testing", "Unit Testing", "{0378B320-FA34-4B7A-A5CF-F4ADD2D106DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleDownloader.Integation.XTest", "ScheduleDownloader.Integation.XTest\ScheduleDownloader.Integation.XTest.csproj", "{61D396AE-B808-4368-858D-9FBFB638E8B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{1A1B771B-0868-4768-AC16-397F62E094F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A1B771B-0868-4768-AC16-397F62E094F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A1B771B-0868-4768-AC16-397F62E094F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D396AE-B808-4368-858D-9FBFB638E8B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D396AE-B808-4368-858D-9FBFB638E8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D396AE-B808-4368-858D-9FBFB638E8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D396AE-B808-4368-858D-9FBFB638E8B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{1A1B771B-0868-4768-AC16-397F62E094F0} = {0378B320-FA34-4B7A-A5CF-F4ADD2D106DC}
 		{50B3D19F-3839-465A-8FB1-1BABF94EDE52} = {48B7C78E-FEFD-4337-85C4-B06232F83AAC}
 		{0378B320-FA34-4B7A-A5CF-F4ADD2D106DC} = {48B7C78E-FEFD-4337-85C4-B06232F83AAC}
+		{61D396AE-B808-4368-858D-9FBFB638E8B9} = {50B3D19F-3839-465A-8FB1-1BABF94EDE52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5CE8205-9D54-4E68-BE88-29809D83DEF6}
