@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{48B7C78E-F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleParser.XUnitTest", "ScheduleParser.XUnitTest\ScheduleParser.XUnitTest.csproj", "{FBEA3620-DFE5-4C69-AF8B-EACD531BF8E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleDownloader", "ScheduleDownloader\ScheduleDownloader.csproj", "{4FBBB2AB-3001-4300-B2B3-B3AD6C459C7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleDownloader", "ScheduleDownloader\ScheduleDownloader.csproj", "{4FBBB2AB-3001-4300-B2B3-B3AD6C459C7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleDownloader.XUnitTest", "ScheduleDownloader.XUnitTest\ScheduleDownloader.XUnitTest.csproj", "{1A1B771B-0868-4768-AC16-397F62E094F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,12 +37,17 @@ Global
 		{4FBBB2AB-3001-4300-B2B3-B3AD6C459C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FBBB2AB-3001-4300-B2B3-B3AD6C459C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FBBB2AB-3001-4300-B2B3-B3AD6C459C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1B771B-0868-4768-AC16-397F62E094F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1B771B-0868-4768-AC16-397F62E094F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1B771B-0868-4768-AC16-397F62E094F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1B771B-0868-4768-AC16-397F62E094F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FBEA3620-DFE5-4C69-AF8B-EACD531BF8E6} = {48B7C78E-FEFD-4337-85C4-B06232F83AAC}
+		{1A1B771B-0868-4768-AC16-397F62E094F0} = {48B7C78E-FEFD-4337-85C4-B06232F83AAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5CE8205-9D54-4E68-BE88-29809D83DEF6}
