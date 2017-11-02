@@ -31,7 +31,7 @@ namespace ScheduleDownloader
                 date = DateTime.Now.Date;
 
             if (channelId.HasValue == false)
-                throw new ArgumentNullException("channelId");
+                throw new ArgumentNullException(nameof(channelId));
 
             return string.Format("{0}?mtime_date={1:yyyy-MM-dd}&channel={2}"
                                 , _mainUrl
