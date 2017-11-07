@@ -37,7 +37,7 @@ namespace ScheduleData
             get
             {
                 if (this.DateTime.HasValue == true)
-                    return string.Format("{0:hh:mm}", this.DateTime.Value);
+                    return string.Format("{0:HH:mm}", this.DateTime.Value);
 
                 return string.Empty;
             }
