@@ -7,7 +7,10 @@ namespace ScheduleData
     /// <summary>電視頻道</summary>
     public sealed class Channel
     {
-        const string replace_link = "https://tw.movies.yahoo.com/tv_channels.html?channel=";
+        private readonly string[] replace_links = new string[] {
+                                                    "https://tw.movies.yahoo.com/tv_channels.html?channel="
+                                                    ,"https://movies.yahoo.com.tw/tv_channels.html?channel="
+                                                };
 
         private int _id;
         private string _name;
@@ -48,7 +51,10 @@ namespace ScheduleData
                 return;
             }
 
-            var _id = url.Replace(replace_link, string.Empty);
+            foreach (var replace_link in replace_links)
+                url = url.Replace(replace_link, string.Empty);
+
+            var _id = url;
 
             this._id = Convert.ToInt32(_id);
         }
